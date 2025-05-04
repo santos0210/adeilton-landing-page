@@ -1,0 +1,136 @@
+
+*{
+    margin: 0px;  
+    font-family: "inter";
+    }
+
+    #logo{
+    width: 135px;
+     margin-left: 50px;
+     margin-top: 45px;
+    }
+        
+#titulo-menusuperior{
+    margin-left: 135px;
+    margin-top: 25px;
+}
+ #texto-menusuperior{
+    margin-left: 135px;
+    margin-top: 20px;
+    padding-bottom: 100px;  
+ }
+#menusuperior{
+   
+background-image: url(Imagens/imagem\ de\ fundo.png8.jpg);
+ color: aliceblue;
+
+}
+#menuinformacional{
+    background-color: #eee;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+     
+}
+ .icones{
+   width: 50px;
+    margin-left: 90px;
+    margin-bottom: 03px;
+    margin-top: 05px;
+    padding: 15px;   
+ }
+ #secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+ }
+
+  .textoinformativo{
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+   margin-left: 25px;
+  }
+    #titulovideo{
+        color: #247ba0;
+        margin: 35px;
+        margin-left: 15px;
+    }
+    #textovideo{
+        margin: 0px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+#video{
+    margin: 50px;
+}
+#carrocel{
+    background-color: #247ba0;
+    
+    padding: 50px;
+}
+#titulo-carrocel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+    #div-cards{
+        display: grid;
+        grid-auto-flow: column;
+    }
+.card{
+    margin-left: 45px;
+    width: 470px;
+    margin-top: 50px;
+}
+#seta-esquerda{
+    display: flex;
+}
+#cardOrcamento{
+    display: none;
+}
+.seta{
+    margin-top: 190%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform:translatey(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+ text-align: center;
+}
+#titulo-formulario{
+ font-size: 25px;
+margin: 30px;
+color: #383838;
+}
+input{
+    width: 313px;
+    height: 53px;
+    background-color: #aeaeae;
+    margin: 15px;
+    border: 0px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+button{
+    background-color: #247ba0;
+    height: 53px;
+    width: 250px;
+    color: #fff9f9;
+    border: 0px;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #247ba0;
+    color: white;
+    transform: translateY(-9px);
+    box-shadow: 0px 15px 20px  #0e0f0f;
+    transition-duration: 09ms;
+    
+}   
